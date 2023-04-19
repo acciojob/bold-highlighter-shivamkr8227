@@ -3,7 +3,7 @@ function highlight() {
 const bolword=document.getElementByTagName("strong");
 	for(let i=0 ; i<bolword.length ; i++)
 		{
-			bolword.style.color="green";
+			bolword[i].style.color="green";
 		}
 
 }
@@ -14,7 +14,7 @@ function return_normal() {
 	const bolword=document.getElementByTagName("strong");
 	for(let i=0 ; i<bolword.length ; i++)
 		{
-			bolword.style.color="black";
+			bolword[i].style.color="black";
 		}
     
 }
